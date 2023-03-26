@@ -1,5 +1,19 @@
 # Getting Started with Create React App
 
+# project title: todo-list
+# project description:
+ ToDo list is a simple web application to save Your daily tasks in order not to miss anything.
+
+# Features
+Pick a date from calendar
+Add new task
+Mark task as completed / uncompleted
+Set task priority
+Edit task
+Delete single task
+Delete completed tasks
+Delete all tasks
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
