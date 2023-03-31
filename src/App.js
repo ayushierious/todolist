@@ -7,7 +7,11 @@ import React, {useState} from 'react';
 function App() {
   const onDelete=(todo)=>{
 console.log("I am on delete" , todo);
-  }
+  
+  setTodos(todos.filter((e)=>{
+    return e!==todo;
+  }))
+}
   const [todos, setTodos] = useState([
     {
     sno:1,
