@@ -1,8 +1,8 @@
 import './App.css';
 import Header from "./MyComponents/Header";
-import {Todos} from "./MyComponents/Todos";
-import {Footer} from "./MyComponents/Footer";
-import {Addtodo} from ".MyComponents/Addtodo";
+import Todos from "./MyComponents/Todos";
+import Footer from "./MyComponents/Footer";
+import Addtodo from "./MyComponents/Addtodo";
 import React, {useState} from 'react';
 
 

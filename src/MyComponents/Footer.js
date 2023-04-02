@@ -7,12 +7,12 @@ export const Footer = () => {
     width: "100%"
   }
   return (
-    <Footer className='bg-dark text-light py-3' style={footerStyle}> 
-    <p className="text-center">
+    <div className='bg-dark text-light py-3' style={footerStyle}> 
+    <p className="text-center" style={{color:'whitesmoke'}}>
       Copyright &copy; MyTodosList.com
       </p> 
       
-    </Footer>
+    </div>
   )
 }
 
