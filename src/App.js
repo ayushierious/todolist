@@ -5,8 +5,6 @@ import Footer from "./MyComponents/Footer";
 import Addtodo from "./MyComponents/Addtodo";
 import React, {useState, useEffect} from 'react';
 
-
-
 function App() 
 {
   let initTodo;
@@ -46,7 +44,7 @@ const addTodo=(title,desc)=>{
   
   }
 
-  const [todos, setTodos] = useState([initTodo]);
+  const [todos, setTodos] = useState([]);
   useEffect(()=>{
     localStorage.setItem("todos",JSON.stringify(todos));
     }, [todos])
